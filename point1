@@ -1,0 +1,11 @@
+## 虚拟dom
+虚拟dom是react最基础的概念，react的挂载和同步都是基础虚拟dom实现的。react虚拟dom分为三类：
+1.string类型的字符串或者number类型的数字，对应dom中的text node。
+2.object类型：通过React.createElement创建出来的ReactElement对象，(element)type为string类型，对应html标签如div。
+3.object类型：通过React.createElement创建出来的ReactElement对象，(element)type为object类型，对应reactComponent.
+
+
+
+
+
+## 挂载过程
